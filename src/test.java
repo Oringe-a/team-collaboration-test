@@ -22,6 +22,6 @@ public class test {
     }
 
 }
-
+    //some comments
     //git config user.email "yournewemail@example.com"
 }
