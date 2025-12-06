@@ -22,15 +22,6 @@ public class test {
     }
 
 }
-    private int mainMenu(){
-        System.out.println("""
-                1)Search the movie
-                2)Create a movie entry
-                0)Exit
-                Enter a number here=>
-                """);
-        int option = input.nextInt();
-        input.nextLine();
-        return option;
-    }
+
+
 }
