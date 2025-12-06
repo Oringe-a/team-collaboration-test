@@ -23,5 +23,5 @@ public class test {
 
 }
 
-
+    //git config user.email "yournewemail@example.com"
 }
