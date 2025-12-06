@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class test {
+    Scanner input = new Scanner(System.in);
     public static void main(String[] args){
     System.out.println("Welcome to Douban Movie Network!");
         System.out.println("----------------------------------");
@@ -21,4 +22,15 @@ public class test {
     }
 
 }
+    private int mainMenu(){
+        System.out.println("""
+                1)Search the movie
+                2)Create a movie entry
+                0)Exit
+                Enter a number here=>
+                """);
+        int option = input.nextInt();
+        input.nextLine();
+        return option;
+    }
 }
